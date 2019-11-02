@@ -1,0 +1,16 @@
+.wrapper {
+    padding-top: 350px;
+}
+
+.welcome {
+    color: white;
+    margin-left: 450px;
+    margin-right: 370px;
+    margin-block-start: 100px;
+    font-family: Optima;
+    font-size: 70px;
+}
+
+.welcome:hover {
+    color: red;
+}
