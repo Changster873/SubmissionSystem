@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Changster873/OnlineQuestionnaire/issues"
   },
-  "homepage": "https://github.com/Changster873/OnlineQuestionnaire#readme"
+  "homepage": "https://github.com/Changster873/OnlineQuestionnaire#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
