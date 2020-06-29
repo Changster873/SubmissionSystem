@@ -4,8 +4,11 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "client-install": "npm install --prefix client",
+    "client": "npm install --prefix client",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd client && node ssr-server.js"
+    "start": "cd client && node ssr-server.js",
+    "heroku-postbuild": "npm install --prefix client && npm run build --prefix client"
   },
   "repository": {
     "type": "git",
