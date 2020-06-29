@@ -15,7 +15,7 @@ export default class Layout extends React.Component {
                     />
                     <link href="../style.css" rel="stylesheet"/>
                 </Head>
-                <div className='wrapper' style={{background: 'black', paddingBottom: `70%`}}>
+                <div className='wrapper' style={{background: 'black', height: 1230}}>
                     {/* its contents */}
                     <div className='container'>
                             {this.props.children}

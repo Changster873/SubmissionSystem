@@ -4,13 +4,33 @@
 
 .welcome {
     color: white;
-    margin-left: 450px;
-    margin-right: 370px;
-    margin-block-start: 100px;
+    width: 120%;
+    margin-left: 200px;
+    margin-right: 350px;
+    margin-block-start: 50px;
     font-family: Optima;
     font-size: 70px;
 }
 
 .welcome:hover {
     color: red;
+}
+
+#submitButton {
+    padding: 10px;
+    color: white;
+    background-color: #009578;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#customText {
+    color: white;
+    padding: 10px;
+}
+
+#fileEntry {
+    color: white;
+    padding: 10px;
 }
