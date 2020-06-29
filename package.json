@@ -5,18 +5,18 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "cd client && node ssr-server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Changster873/OnlineQuestionnaire.git"
+    "url": "git+https://github.com/Changster873/SubmissionSystem.git"
   },
   "author": "Chansocheat Chheang",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Changster873/OnlineQuestionnaire/issues"
+    "url": "https://github.com/Changster873/SubmissionSystem/issues"
   },
-  "homepage": "https://github.com/Changster873/OnlineQuestionnaire#readme",
+  "homepage": "https://github.com/Changster873/SubmissionSystem#readme",
   "dependencies": {
     "express": "^4.17.1"
   }
