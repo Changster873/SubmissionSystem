@@ -16,10 +16,28 @@
     color: red;
 }
 
-#submitButton {
+#uploadButton {
     padding: 10px;
     color: white;
     background-color: #009578;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submitButtonDisabled {
+    padding: 10px;
+    color: rgb(158, 155, 155);
+    background-color: rgb(79, 77, 77);
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submitButton {
+    padding: 10px;
+    color: white;
+    background-color: #007899;
     border: 1px solid black;
     border-radius: 5px;
     cursor: pointer;
@@ -30,7 +48,28 @@
     padding: 10px;
 }
 
-#fileEntry {
-    color: white;
+#fileEntryText {
+    display: inline-block;
+    color: black;
     padding: 10px;
+}
+
+.fileEntry {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: #94BEF0;
+}
+
+#entryRemoveButton {
+    float: right;
+    margin-top: 20px;
+    background-color: rgb(226, 85, 85);
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+#entryRemoveButton:hover, #submitButton:hover, #uploadButton:hover {
+    color: black;
 }
