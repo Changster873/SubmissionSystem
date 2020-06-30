@@ -15,7 +15,7 @@ export default class Welcome extends React.Component {
       headers: {'Content-Type': 'text/plain'},
       body: this.allFiles
     }
-    fetch(`http://localhost:5000/submit`, req).then(data => console.log(data))
+    fetch(`http://submissionsystem.herokuapp.com/submit`, req).then(data => console.log(data))
     return;
   }
 
